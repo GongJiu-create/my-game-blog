@@ -111,10 +111,13 @@ search:
   limit: 10
 
 symbols_count_time:
+  # 每篇文章显示
   symbols: true
   time: true
-  total_symbols: true
-  total_time: true
+  # 文章底部显示
+  total_symbols: false
+  total_time: false
+  # 是否统计代码块
   exclude_codeblock: false
   awl: 2    
   wpm: 275
@@ -128,4 +131,3 @@ feed:
   limit: 20
   hub:
   content:
-  
