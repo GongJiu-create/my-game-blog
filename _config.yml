@@ -132,14 +132,23 @@ feed:
   hub:
   content:
 
+# Live2D 看板娘配置
+# https://github.com/EYHN/hexo-helper-live2d
 live2d:
   enable: true
   scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
   model:
-    use: live2d-widget-model-nico  //使用的样式
+    use: live2d-widget-model-nico  # 这里换成你刚才安装的模型名字
   display:
-    position: right
-    width: 180
-    height: 300
+    position: right    # 显示在右侧
+    width: 150         # 宽度
+    height: 300        # 高度
+    hOffset: 0         # 水平偏移
+    vOffset: -20       # 垂直偏移（负值向上移）
   mobile:
-    show: true
+    show: true         # 手机端是否显示
