@@ -1,8 +1,8 @@
 body {
-    background:url(/images/background.png);
+    background:url(/images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed; //是否滚动，fixed固定
-    background-size: contain;      
+    background-size: cover;      
     background-position: center;
 }
 
@@ -36,6 +36,18 @@ body{               //修改主体字体颜色
 }
 
 .main-inner {
-    background-color: rgba(255, 255, 255, 0);  //主体背景透明
+    background-color: rgba(255, 255, 255, 0.6);  //主体背景透明
     padding: 0px 40px 40px 40px;  //调整组件位置
+}
+
+/* 让所有文章标题变成蓝色 */
+.post-title {
+  color: #000000;
+  font-weight: 600;
+}
+
+/* 调整正文字体大小 */
+.post-body {
+  font-size: 1.1em;
+  line-height: 1.8;
 }

@@ -149,11 +149,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.jpg
+  url: /images/avatar.png
   # If true, the avatar will be displayed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -440,10 +440,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  host: https://fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -453,30 +453,30 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
-    size:
+    family: Bitcount Prop Double Ink
+    size: 1.1
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
-    size:
+    family: 
+    size: 1.5
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
-    size:
+    family: 
+    size: 1.8
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family:
+    family: 
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Console
 
 
 # ---------------------------------------------------------------
@@ -831,7 +831,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
